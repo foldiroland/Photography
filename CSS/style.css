@@ -24,6 +24,12 @@ section, .header, .admin {
     text-align: center;
 }
 .header-inner{
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header-inner-main{
     height: 90%;
     display: grid;
     justify-content: center;
@@ -56,12 +62,11 @@ a{
 }
 button{
     height: 40px;
-    width: 200px;
+    width: 303.5px;
     border: 0px;
     border-radius: 12px;
 }
 .nav-Lo.Ad{
-    display: flex;
     width: 100%;
     max-width: 100vw;
     justify-content: center;
@@ -80,7 +85,7 @@ input{
     height: 40px;
     border: 0px;
     border-radius: 12px;
-    width: 400px;
+    width: 607px;
     text-align: center;
 }
 button:hover{
@@ -89,7 +94,17 @@ button:hover{
 form{
     width: 400px;
 }
-
+.admin{
+    text-align: left;
+}
+p{
+    font-size: 20px;
+    font-weight: 200;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
 @media only screen and (max-width: 755px){
  .header h1{
     display: grid;
