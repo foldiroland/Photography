@@ -4,9 +4,13 @@
 
 Mit találsz nálunk?
 	•	👤 Fotós profilokat – Ismerd meg a művészeket, akik a lencse mögött állnak
+ 
 	•	🖼️ Fényképgalériákat – Böngéssz a csodás alkotások között
+ 
 	•	📷 Felszerelésbemutatókat – Tudd meg, milyen gépekkel dolgoznak a profik
+ 
 	•	🔒 Admin rendszer – A weboldalt megbízható adminok kezelik
+ 
 
 Minden egy helyen, amit a fotózásról tudni érdemes.
 Csatlakozz, nézz körül, és inspirálódj!
