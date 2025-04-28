@@ -4,6 +4,7 @@ function submit(){
 
     if (password == "admin123"){
         window.location.href = "../HTML/admin.html";
+        document.getElementById("uname").innerHTML = "HELLO, "+username;
     }else{
         alert("Wrong password!");
     }

@@ -100,6 +100,8 @@ form{
 p{
     font-size: 20px;
     font-weight: 200;
+    padding: 0;
+    margin: 0;
 }
 h1{
     margin: 0;
@@ -111,4 +113,47 @@ h1{
     grid-template-columns: 1fr;
     grid-auto-flow: column;
  }
+ .doubleDiv{
+    display: flex;
+    flex-direction: column;
+ }
+}
+.content{
+    height: 1000vh;
+    background-color: #0B0D0C;
+}
+.doubleDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.card{
+    height: 450px;
+    width: 450px;
+    background-color: red;
+    margin: 30px;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+.left{
+    background-color: #192821;
+    padding: 20px;
+}
+.right{
+    background-color: #2B4639;
+    padding: 20px;
+
+}
+.longCard{
+    width: 1300px;
+    height: 450px;
+    background-color: #3F6352;
 }
