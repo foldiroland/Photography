@@ -11,7 +11,7 @@ section, .header, .admin {
     max-width: 100vw;
 }
 .fav-photos{
-    height: 80%;
+    height: 100%;
     background-color: #0B0D0C;
     background-position: center;
     background-size: cover;
@@ -187,7 +187,7 @@ h1{
     background-color: #3F6352;
 }
 .galery{
-    height: 120%;
+    height: 150%;
     background:url(../ASSETS/second-background.png);
     background-position: center;
     background-size: cover;
@@ -211,8 +211,38 @@ h1{
     font-size: 30px;
     color: aliceblue;
 }
+.first{
+    display: flex;
+    justify-content: center;    
+}
+.second{
+    display: flex;
+    justify-content: center;  
+    margin-left: 280px;
+}
+.cameras{
+    background: #0B0D0C;
+}
+.right{
+    background: #0B0D0C;
+    color: #fff;
+    text-align: left;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;    
 
+}
+.right h1{
+    font-size: 60px;
+}
 
+.left{
+    background: #0B0D0C;
+    text-align: center;
+    width: 60%;
+}
 /* dasdasd
 sadad
 a
