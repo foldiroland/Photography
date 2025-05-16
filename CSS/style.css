@@ -243,6 +243,13 @@ h1{
     text-align: center;
     width: 60%;
 }
+
+.alignment{
+
+align-items: center;
+display: flex;
+justify-content: center;
+}
 /* dasdasd
 sadad
 a

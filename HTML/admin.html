@@ -13,9 +13,16 @@
     <section class="header">
         <section class="header-inner-main">
             <div class="nav-Lo.Ad">
-                <h1 id="uname"></h1>
+                <h1 id="uname"></h1>  
+                <div class="alignment">  
                 <h2> ADMIN SITE </h2>
-                <p>UPLOAD PICTURES</p>
+                <br>
+                <form action="upload.php">
+                    <label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile"><br><br>
+                    <input type="submit" value="UPLOAD">
+                </form>
+            </div>
                     <a href="../HTML/main.html"><button>Log out</button></a>
             </div>
         </section>  
