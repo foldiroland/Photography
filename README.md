@@ -18,3 +18,5 @@ Minden egy helyen, amit a fotózásról tudni érdemes.
 Csatlakozz, nézz körül, és inspirálódj!
 
 ![god](https://github.com/user-attachments/assets/f18a7550-a4ca-4a54-bcd4-09d427a51d00)
+
+![god](https://github.com/foldiroland/Photography/blob/main/let%C3%B6lt%C3%A9s.jpg)
