@@ -12,36 +12,25 @@
     <!-- HEADER -->
     <section class="header">
         <section class="header-inner-main">
+            
             <div class="nav-Lo.Ad">
-                <h1 id="uname"></h1>  
-                <div class="alignment">  
-                <h2> ADMIN SITE </h2>
-                <br>
-                <form action="upload.php" method="POST" enctype="multipart/form-data">
+                <h2 style="align-items: center; display: flex; justify-content: center;"> ADMIN SITE </h2>
+               
+                <form action="PHP/upload.php" method="POST" enctype="multipart/form-data">
                     <input type="text" name="title" placeholder="Cím" required>
-                    <textarea name="description" placeholder="Leírás"></textarea>
                     <input type="file" name="photo" accept="image/*" required>
                     <button type="submit">Feltöltés</button>
                   </form>
-                  
-                    <a href="../HTML/main.html"><button>Log out</button></a>
+                </div>
             </div>
+                
+                 
+                
+  
         </section>  
+        <a href="../HTML/main.html"><button>Log out</button></a>
     </section>
-    <section class="content">
-        <div class="doubleDiv">
-            <div class="left card">
-                <h1>UPLOAD</h1>
-            </div>
-            <div class="right card">
-                <h1>STATS</h1>
-            </div>
-        </div>
-        <div class="longCard">
-            <h1>almafa alja</h1>
-        </div>
-    </section>
-
+    
 
     <!-- SCRIPT -->
     <script src="../JS/script.js"></script>
